@@ -1,0 +1,79 @@
+[
+{
+    "pk": 2,
+    "fields": {
+        "name": "iPhone"
+    },
+    "model": "core.product"
+},
+{
+    "pk": 3,
+    "fields": {
+        "name": "Dell"
+    },
+    "model": "core.product"
+},
+{
+    "pk": 1,
+    "fields": {
+        "product": 2,
+        "name": "4S"
+    },
+    "model": "core.productmodel"
+},
+{
+    "pk": 2,
+    "fields": {
+        "product": 2,
+        "name": "5C"
+    },
+    "model": "core.productmodel"
+},
+{
+    "pk": 3,
+    "fields": {
+        "product": 2,
+        "name": "6S"
+    },
+    "model": "core.productmodel"
+},
+{
+    "pk": 4,
+    "fields": {
+        "product": 3,
+        "name": "Vostro"
+    },
+    "model": "core.productmodel"
+},
+{
+    "pk": 5,
+    "fields": {
+        "product": 3,
+        "name": "Inspiron"
+    },
+    "model": "core.productmodel"
+},
+{
+    "pk": 1,
+    "fields": {
+        "product_models": [
+            1,
+            2,
+            3
+        ],
+        "address": "123, My Street1, City1, Country1"
+    },
+    "model": "core.order"
+},
+{
+    "pk": 2,
+    "fields": {
+        "product_models": [
+            4,
+            5
+        ],
+        "address": "456, My Street2, City2, Country2"
+    },
+    "model": "core.order"
+}
+]
